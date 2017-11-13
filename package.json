@@ -1,0 +1,21 @@
+{
+    "name": "yomasnip",
+    "displayName": "Yomas Snippets",
+    "description": "Snippers for generator-yomas",
+    "version": "0.0.1",
+    "publisher": "yomas",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "scss",
+                "path": "./snippets/scss.json"
+            }
+        ]
+    }
+}
